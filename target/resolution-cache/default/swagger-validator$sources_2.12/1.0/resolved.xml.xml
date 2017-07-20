@@ -4,7 +4,7 @@
 		module="swagger-validator$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170718221201"
+		publication="20170718235819"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

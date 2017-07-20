@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170718221201"/>
+		date="20170718235819"/>
 	<dependencies>
 		<module organisation="io.circe" name="circe-java8_2.12">
 			<revision name="0.7.0-M2" status="release" pubdate="20170110091356" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="3063" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-java8_2.12/ivy-0.7.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-java8_2.12/0.7.0-M2/circe-java8_2.12-0.7.0-M2.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.7.0-M2" rev-constraint-default="0.7.0-M2" rev-constraint-dynamic="0.7.0-M2" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-java8_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1806" time="325" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-java8_2.12/srcs/circe-java8_2.12-0.7.0-M2-sources.jar">
+					<artifact name="circe-java8_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1806" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-java8_2.12/srcs/circe-java8_2.12-0.7.0-M2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-java8_2.12/0.7.0-M2/circe-java8_2.12-0.7.0-M2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="3542" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-generic_2.12/ivy-0.7.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.0-M2/circe-generic_2.12-0.7.0-M2.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.7.0-M2" rev-constraint-default="0.7.0-M2" rev-constraint-dynamic="0.7.0-M2" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-generic_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12542" time="322" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-generic_2.12/srcs/circe-generic_2.12-0.7.0-M2-sources.jar">
+					<artifact name="circe-generic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12542" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-generic_2.12/srcs/circe-generic_2.12-0.7.0-M2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.0-M2/circe-generic_2.12-0.7.0-M2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="3226" time="0" location="/Users/francesco.perera/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="shapeless_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="163673" time="125" location="/Users/francesco.perera/.ivy2/cache/com.chuusai/shapeless_2.12/srcs/shapeless_2.12-2.3.2-sources.jar">
+					<artifact name="shapeless_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="163673" time="0" location="/Users/francesco.perera/.ivy2/cache/com.chuusai/shapeless_2.12/srcs/shapeless_2.12-2.3.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="3354" time="0" location="/Users/francesco.perera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/ivy-3.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.1/scala-logging_2.12-3.7.1.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9081" time="100" location="/Users/francesco.perera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.7.1-sources.jar">
+					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9081" time="0" location="/Users/francesco.perera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.1/scala-logging_2.12-3.7.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -113,7 +113,7 @@
 				<metadata-artifact status="no" details="" size="3088" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-parser_2.12/ivy-0.7.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.0-M2/circe-parser_2.12-0.7.0-M2.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.7.0-M2" rev-constraint-default="0.7.0-M2" rev-constraint-dynamic="0.7.0-M2" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="831" time="249" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-parser_2.12/srcs/circe-parser_2.12-0.7.0-M2-sources.jar">
+					<artifact name="circe-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="831" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-parser_2.12/srcs/circe-parser_2.12-0.7.0-M2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.0-M2/circe-parser_2.12-0.7.0-M2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -125,7 +125,7 @@
 				<metadata-artifact status="no" details="" size="3087" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.7.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0-M2/circe-jawn_2.12-0.7.0-M2.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.7.0-M2" rev-constraint-default="0.7.0-M2" rev-constraint-dynamic="0.7.0-M2" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-jawn_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2044" time="269" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-jawn_2.12/srcs/circe-jawn_2.12-0.7.0-M2-sources.jar">
+					<artifact name="circe-jawn_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2044" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-jawn_2.12/srcs/circe-jawn_2.12-0.7.0-M2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0-M2/circe-jawn_2.12-0.7.0-M2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -137,7 +137,7 @@
 				<metadata-artifact status="no" details="" size="3086" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-core_2.12/ivy-0.7.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0-M2/circe-core_2.12-0.7.0-M2.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.7.0-M2" rev-constraint-default="0.7.0-M2" rev-constraint-dynamic="0.7.0-M2" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37172" time="165" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-core_2.12/srcs/circe-core_2.12-0.7.0-M2-sources.jar">
+					<artifact name="circe-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37172" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-core_2.12/srcs/circe-core_2.12-0.7.0-M2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0-M2/circe-core_2.12-0.7.0-M2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -149,7 +149,7 @@
 				<metadata-artifact status="no" details="" size="3494" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-0.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.8.1/cats-core_2.12-0.8.1.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.8.1" rev-constraint-default="0.8.1" rev-constraint-dynamic="0.8.1" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="131401" time="233" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-0.8.1-sources.jar">
+					<artifact name="cats-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="131401" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-0.8.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.8.1/cats-core_2.12-0.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -161,7 +161,7 @@
 				<metadata-artifact status="no" details="" size="2777" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-0.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.8.1/cats-kernel_2.12-0.8.1.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.8.1" rev-constraint-default="0.8.1" rev-constraint-dynamic="0.8.1" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-kernel_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="33236" time="120" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-kernel_2.12/srcs/cats-kernel_2.12-0.8.1-sources.jar">
+					<artifact name="cats-kernel_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33236" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-kernel_2.12/srcs/cats-kernel_2.12-0.8.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.8.1/cats-kernel_2.12-0.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -173,7 +173,7 @@
 				<metadata-artifact status="no" details="" size="3078" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-0.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.8.1/cats-macros_2.12-0.8.1.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.8.1" rev-constraint-default="0.8.1" rev-constraint-dynamic="0.8.1" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1201" time="91" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-macros_2.12/srcs/cats-macros_2.12-0.8.1-sources.jar">
+					<artifact name="cats-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1201" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/cats-macros_2.12/srcs/cats-macros_2.12-0.8.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.8.1/cats-macros_2.12-0.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -185,7 +185,7 @@
 				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="machinist_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3546" time="92" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/machinist_2.12/srcs/machinist_2.12-0.6.1-sources.jar">
+					<artifact name="machinist_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3546" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/machinist_2.12/srcs/machinist_2.12-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -197,7 +197,7 @@
 				<metadata-artifact status="no" details="" size="3140" time="0" location="/Users/francesco.perera/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="simulacrum_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6576" time="77" location="/Users/francesco.perera/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/srcs/simulacrum_2.12-0.10.0-sources.jar">
+					<artifact name="simulacrum_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6576" time="0" location="/Users/francesco.perera/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/srcs/simulacrum_2.12-0.10.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -209,7 +209,7 @@
 				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1052" time="78" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
+					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="/Users/francesco.perera/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -221,7 +221,7 @@
 				<metadata-artifact status="no" details="" size="3050" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-numbers_2.12/ivy-0.7.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0-M2/circe-numbers_2.12-0.7.0-M2.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.7.0-M2" rev-constraint-default="0.7.0-M2" rev-constraint-dynamic="0.7.0-M2" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-numbers_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3777" time="217" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-numbers_2.12/srcs/circe-numbers_2.12-0.7.0-M2-sources.jar">
+					<artifact name="circe-numbers_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3777" time="0" location="/Users/francesco.perera/.ivy2/cache/io.circe/circe-numbers_2.12/srcs/circe-numbers_2.12-0.7.0-M2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0-M2/circe-numbers_2.12-0.7.0-M2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -245,7 +245,7 @@
 				<metadata-artifact status="no" details="" size="2879" time="0" location="/Users/francesco.perera/.ivy2/cache/org.spire-math/jawn-parser_2.12/ivy-0.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4.pom"/>
 				<caller organisation="default" name="swagger-validator$sources_2.12" conf="test, compile, runtime" rev="0.10.4" rev-constraint-default="0.10.4" rev-constraint-dynamic="0.10.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jawn-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18474" time="98" location="/Users/francesco.perera/.ivy2/cache/org.spire-math/jawn-parser_2.12/srcs/jawn-parser_2.12-0.10.4-sources.jar">
+					<artifact name="jawn-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18474" time="0" location="/Users/francesco.perera/.ivy2/cache/org.spire-math/jawn-parser_2.12/srcs/jawn-parser_2.12-0.10.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar"/>
 					</artifact>
 				</artifacts>

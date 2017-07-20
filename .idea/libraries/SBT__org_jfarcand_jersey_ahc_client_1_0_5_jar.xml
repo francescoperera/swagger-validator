@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.jfarcand:jersey-ahc-client:1.0.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.jfarcand/jersey-ahc-client/jars/jersey-ahc-client-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.jfarcand/jersey-ahc-client/srcs/jersey-ahc-client-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

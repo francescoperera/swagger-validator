@@ -1,0 +1,8 @@
+# Swagger Codegen Ignore
+# Lines beginning with a # are comments
+
+# This should match build.sh located anywhere.
+build.sbt
+
+# Matches build.sh in the root
+/build.sbt

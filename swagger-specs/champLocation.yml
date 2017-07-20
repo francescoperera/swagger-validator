@@ -1,0 +1,119 @@
+swagger: '2.0'
+info:
+  version: '1'
+  title: Upload Champ Meeting Location data to S3
+  description: Stream used for pushing all champ Meeting Location data for a locale.
+  x-slack: '#ca-data-tech'
+produces:
+  - application/json
+paths:
+  /champ.LOCATION:
+    get:
+      summary: Retrieve all meeting locations from Oracle for a locale to push to s3.
+      description: Retrieve all meeting locations from Oracle for a locale to push to s3.
+      responses:
+        '200':
+          description: Champ Locations
+          schema:
+            $ref: '#/definitions/location'
+definitions:
+  location:
+    type: object
+    properties:
+      location_id:
+        type: integer
+        description: Location Id
+      location_desc:
+        type: string
+        description: Location Description
+      area_site_id:
+        type: integer
+        description: Area Site Id
+      district_id:
+        type: integer
+        description: District Id  
+      location_type_id:
+        type: integer
+        description: Location Type Id   
+      non_tangible_pr_id:
+        type: integer
+        description: Non Tangible Product Id 
+      location_address1:
+        type: string
+        description: Location Address 1
+      location_address2:
+        type: string
+        description: Location Address 2
+      city:
+        type: string
+        description: Location City
+      state_id:
+        type: integer
+        description: Location State Id
+      county_id:
+        type: integer
+        description: Location County Id
+      country_id:
+        type: integer
+        description: Location Country Id
+      zip_code:
+        type: string
+        description: Location Zip Code
+      latitude:
+        type: number
+        format: double
+        description: Location Latitude
+      longitude:
+        type: number
+        format: double
+        description: Location Longitude 
+      active_flag:
+        type: string
+        description: Active Flag
+        enum:
+             - Y
+             - N
+      location_step:
+        type: string
+        description: Location Step
+      created_date:
+        type: string
+        format: date
+        description: Created DateTime
+      created_by:
+        type: string
+        description: Created By
+      last_upd_date:
+        type: string
+        format: date
+        description: Last Updated DateTime
+      last_upd_by:
+        type: string
+        description: Last Updated By
+      gd_city:
+        type: integer
+        description: GD City
+      is_tax_collected:
+        type: string
+        description: Is Tax Collected or Not
+        enum:
+             - Y
+             - N
+      tangible_pr_id:
+        type: integer
+        description: Tangible Product Id
+      location_no:
+        type: integer
+        description: Location Number
+      credit_card_enabled:
+        type: string
+        description: Credit Card Enabled or Not
+        enum:
+             - Y
+             - N
+      mp_activation_enabled:
+        type: string
+        description: MP Activation is Enabled or Not
+        enum:
+             - Y
+             - N

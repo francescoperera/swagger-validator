@@ -4,7 +4,7 @@
 		module="swagger-validator_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170718221145"
+		publication="20170719001544"
 	>
 		<description>
 		swagger-validator
@@ -40,5 +40,15 @@
 		<dependency org="io.circe" name="circe-java8_2.12" rev="0.7.0-M2" conf="compile->default(compile)"/>
 		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.12" rev="3.7.1" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" rev="2.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.sun.jersey" name="jersey-core" rev="1.19" conf="compile->default(compile)"/>
+		<dependency org="com.sun.jersey" name="jersey-client" rev="1.19" conf="compile->default(compile)"/>
+		<dependency org="com.sun.jersey.contribs" name="jersey-multipart" rev="1.19" conf="compile->default(compile)"/>
+		<dependency org="org.jfarcand" name="jersey-ahc-client" rev="1.0.5" conf="compile->default(compile)"/>
+		<dependency org="io.swagger" name="swagger-core" rev="1.5.8" conf="compile->default(compile)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.2" conf="compile->default(compile)"/>
+		<dependency org="org.joda" name="joda-convert" rev="1.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="2.2.4" conf="test->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.8.1" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -1,0 +1,55 @@
+swagger: '2.0'
+info:
+  version: '1'
+  title: Upload Champ Subscription Types to S3
+  description: Stream used for pushing all champ Subscription Types for a locale.
+  x-slack: '#ca-data-tech'
+produces:
+  - application/json
+paths:
+  /champ.SUBSCRIPTION_TYPE:
+    get:
+      summary: Retrieve all subscription types from Oracle for a locale to push to s3.
+      description: Retrieve all subscription types from Oracle for a locale to push to s3.
+      responses:
+        '200':
+          description: Champ Subscription Types
+          schema:
+            $ref: '#/definitions/subscription_type'
+definitions:
+  subscription_type:
+    type: object
+    properties:
+      subscription_type_id:
+        type: integer
+        description: Subscription Type ID
+      subscription_type_name:
+        type: string
+        description: Name of the Subscription Type
+      subscription_type_desc:
+        type: string
+        description: Description of the Subscription Type
+      obsolete_flag:
+        type: string
+        description: Is this record Obsolete or not
+        enum:
+             - Y
+             - N
+      country_id:
+        type: integer
+        description: Id of the Locale
+      created_by:
+        type: string
+        description: Created By
+      created_date:
+        type: string
+        description: Created DateTime
+      last_upd_by:
+        type: string
+        description: Last Updated By
+      last_upd_date:
+        type: string
+        description: Last Updated DateTime
+      subscription_prefix:
+        type: string
+        description: Prefix used for Subscription
